@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attribute Selector</title>
+    <style>
+      div[data-a="box1"] {
+        width: 100px;
+        height: 100px;
+        background-color: yellow;
+      }
+      div[data-b="box2"] {
+        width: 500px;
+        height: 300px;
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    `
+    <!-- element[attributeName="value"] { p:v } -->
+    <!-- <tag data-something="value">Content Area</tag> -->
+    <div data-a="box1">A</div>
+    <div data-b="box2">B</div>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+.p {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin: 150px auto;
+    transform: rotate(0deg);
+    transition: transform 5s linear;
+}
+
+.p:hover {
+    transform: rotate(180deg);
+}
+
+.c {
+    width: 200px;
+    height: 200px;
+}
+
+.green {
+    background: green;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+}
+
+.orange{
+    background: orange;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+
+.purple {
+    background: purple;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+
+.blue {
+    background: blue;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+}
