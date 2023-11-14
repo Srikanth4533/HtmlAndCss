@@ -8,11 +8,31 @@
     <style>
       div.a {
         background-color: red;
+        border-radius: 200px;
+        transition: all 0.8s ease-in-out;
+      }
+      div.a:hover {
+        background-color: cyan;
+      }
+      .b {
+        border-top-right-radius: 200px;
+        border-bottom-left-radius: 200px;
+      }
+      .b:hover {
+        background-color: chartreuse !important;
       }
       .common {
         display: inline-block;
         width: 200px;
         height: 200px;
+      }
+      div.d {
+        background-color: violet;
+        border-top-left-radius: 200px;
+        border-bottom-right-radius: 200px;
+      }
+      div.d:hover {
+        background-color: crimson;
       }
     </style>
   </head>
@@ -25,5 +45,6 @@
       B
     </div>
     <div class="common c">C</div>
+    <div class="common d">D</div>
   </body>
 </html>

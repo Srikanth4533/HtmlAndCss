@@ -1,5 +1,8 @@
 div.c {
-    width: 200px;
-    height: 200px;
     background-color: yellow;
+    border-radius: 200px;
+}
+
+div.c:hover {
+    background-color: darkblue;
 }
