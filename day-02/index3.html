@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Direct Child Relationship ></title>
+    <style>
+      .p {
+        width: 400px;
+        height: 400px;
+        background: red;
+        transition: background 2s linear;
+      }
+
+      .p:hover {
+        background: green;
+      }
+
+      .p > .c {
+        width: 200px;
+        height: 200px;
+        background: greenyellow;
+        transition: background 2s ease-in;
+      }
+
+      .p > .c:hover {
+        background: whitesmoke;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="p">
+      <div class="c"></div>
+    </div>
+  </body>
+</html>
