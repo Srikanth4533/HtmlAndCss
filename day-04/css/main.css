@@ -1,0 +1,44 @@
+
+
+[data-box="boxd"] {
+    width: 400px;
+    height: 400px;
+    background-color: yellowgreen;
+    transform: rotate(0deg);
+    transition: all 5s linear;
+    animation: abc 5s linear infinite alternate;
+}
+
+/* [data-box="boxd"]:hover {
+    transform: rotate(250deg);
+    background: crimson;
+} */
+
+@keyframes abc {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(300deg);
+    }
+}
+
+.laddu {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    animation: xyz 5s linear infinite alternate;
+    background-color: blue;
+    transition: all 2s linear;
+}
+
+@keyframes xyz {
+    from {
+        transform: translate(0px);
+    }
+    to {
+        transform: translate(200px);
+        background-color: orange;
+    }
+}
